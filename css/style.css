@@ -545,6 +545,36 @@ a:focus {
     background: #db6334e1;
 }
 
+.skills-header {
+    position: relative;
+    padding: 60px 30px;
+    background: #ffffff;
+    border-bottom: 30px solid #88ade1;
+}
+
+.col-md-6.col-lg-7 {
+    font-family: 'Times', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #333;
+    /* Adjust the color as needed */
+    line-height: 1.5;
+    border: 2px solid #9f0808;
+    /* Border color - adjust as needed */
+    padding: 25px;
+    /* Add padding for better spacing */
+    border-radius: 15px;
+    /* Optional: Add border radius for rounded corners */
+}
+
+.col-md-6.col-lg-7 p {
+    margin-bottom: 15px;
+}
+
+/* Responsive styles */
+@media (max-width: 650px) {
+    .col-md-6.col-lg-7 {
+        padding: 10px;
+    }
+}
 
 /**********************************/
 /*********** About CSS ************/
@@ -591,7 +621,7 @@ a:focus {
 .about .skill-name p {
     display: inline-block;
     margin-bottom: 5px;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 400;
 }
 
@@ -680,6 +710,7 @@ a:focus {
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 2px;
+    font-style: italic;
 }
 
 .education .edu-col p {
