@@ -553,16 +553,17 @@ a:focus {
 }
 
 .col-md-6.col-lg-7 {
-    font-family: 'Times', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
     color: #333;
-    /* Adjust the color as needed */
+   
     line-height: 1.5;
-    border: 2px solid #e72e2ed0;
-    /* Border color - adjust as needed */
+    border: 3px solid #e72e2ed0;
+    
     padding: 25px;
-    /* Add padding for better spacing */
+    /* margin: 25px; */
+   
     border-radius: 15px;
-    /* Optional: Add border radius for rounded corners */
+   
 }
 
 .col-md-6.col-lg-7 p {
